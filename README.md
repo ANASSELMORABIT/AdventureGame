@@ -1,54 +1,30 @@
 # AdventureGame
 
 <!-- Diagrama UML en HTML -->
-<h2>Clase <code>Personajes</code></h2>
+<div style="display: inline-block; border: 1px solid black; font-family: Arial, sans-serif; width: 400px; text-align: center;">
+  <!-- Clase -->
+  <div style="background-color: #f2f2f2; font-weight: bold; padding: 10px; border-bottom: 1px solid black;">
+    Personajes
+  </div>
+  <!-- Atributos -->
+  <div style="padding: 10px; border-bottom: 1px solid black; text-align: left;">
+    <u><b>Atributos</b></u><br>
+    + nombre : string<br>
+    + puntosVida : int<br>
+    + nivel : int<br>
+    + esVivo : bool<br>
+    + puntosDeHabilidad : int<br>
+    + descripcion : string
+  </div>
+  <!-- Métodos -->
+  <div style="padding: 10px; text-align: left;">
+    <u><b>Métodos</b></u><br>
+    + Personajes(Nombre : string, PuntosVida : int, Nivel : int, EsVivo : bool, PuntosDeHabilidad : int, Descripcion : string = "Descripción no especificada")<br>
+    + Atacar() : int<br>
+    + RecibirDano(puntos : int) : int<br>
+    + SubirNivel() : void<br>
+    + EstaVivo() : bool
+  </div>
+</div>
 
-<table border="1" style="border-collapse: collapse; width: 100%; text-align: left;">
-  <thead>
-    <tr style="background-color: #f2f2f2;">
-      <th colspan="3">Personajes</th>
-    </tr>
-  </thead>
-  <tbody>
-    <!-- Atributos -->
-    <tr>
-      <td colspan="3" style="font-weight: bold;">Atributos</td>
-    </tr>
-    <tr>
-      <td><b>Modificador</b></td>
-      <td><b>Tipo</b></td>
-      <td><b>Nombre</b></td>
-    </tr>
-    <tr>
-      <td>public</td>
-      <td>string</td>
-      <td>nombre</td>
-    </tr>
-    <tr>
-      <td>public</td>
-      <td>int</td>
-      <td>puntosVida</td>
-    </tr>
-    <tr>
-      <td>public</td>
-      <td>int</td>
-      <td>nivel</td>
-    </tr>
-    <tr>
-      <td>public</td>
-      <td>bool</td>
-      <td>esVivo</td>
-    </tr>
-    <tr>
-      <td>public</td>
-      <td>int</td>
-      <td>puntosDeHabilidad</td>
-    </tr>
-    <tr>
-      <td>public</td>
-      <td>string</td>
-      <td>descripcion</td>
-    </tr>
-  </tbody>
-</table>
 
