@@ -19,3 +19,9 @@ class Personajes {
     + bool EstaVivo()
 }
 @enduml
+
+
+
+### Cómo funciona
+- Si algún usuario del proyecto desea renderizar el diagrama, puede copiar este código y pegarlo en un editor de PlantUML como el [PlantUML Online Editor](https://plantuml.com/plantuml).
+- Esto asegura que el diagrama está accesible en texto y sin necesidad de imágenes pre-generadas.
